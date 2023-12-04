@@ -1,6 +1,8 @@
 #!/bin/python
 
 # import module gtk
+import gi
+gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 
 # create class window

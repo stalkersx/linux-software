@@ -18,7 +18,7 @@ class window(Gtk.Window):
 				en.set_text("write text here ....") # create text default
 				en.connect("activate", self.entry_text) # action text
 				
-				print(en.get_text()) # get text default
+				print(en.get_text()) # get text default or for button click
 				
 				self.add(en) # add entry
 				

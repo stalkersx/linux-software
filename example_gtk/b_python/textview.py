@@ -16,7 +16,7 @@ class window(Gtk.Window):
 				textview1 = Gtk.TextView() # contruktor
 				textview1.set_editable(False) # edit text
 				textview1.set_cursor_visible(False) # garis tulis
-				textview1.get_buffer().set_text("hello world !") # write text
+				textview1.get_buffer().set_text("hello world !") # write text.
 				
 				# add
 				self.add(textview1)

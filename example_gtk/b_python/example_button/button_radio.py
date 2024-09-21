@@ -19,6 +19,7 @@ class window(Gtk.Window):
 				btn1 = Gtk.RadioButton.new_with_label_from_widget(None, "tombol 1")
 				btn2 = Gtk.RadioButton.new_from_widget(btn1)
 				btn2.set_label("tombol 2")
+				btn2.set_active("is active")
 				btn3 = Gtk.RadioButton.new_with_mnemonic_from_widget(btn1, "tombol 3")
 				
 				# action click button radio

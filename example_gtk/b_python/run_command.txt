@@ -1,2 +1,0 @@
-- $ chmod 755 namefile.py
-- $ ./namefile.py

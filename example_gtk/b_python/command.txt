@@ -1,0 +1,9 @@
+COMMAND INSTALL :
+- # apt install libgtk-3*
+- # apt inatall libgtk-4*
+
+COMMAND RUNNING :
+- $ chmod 755 namefile.py
+- $ ./namefile.py
+or
+- $ python3 namefile.py

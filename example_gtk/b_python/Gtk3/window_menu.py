@@ -28,6 +28,7 @@ ms.set_submenu(mn)
 mb = Gtk.MenuBar()
 mb.append(ms)
 ms1 = Gtk.MenuItem("settings")
+ms1.connect("activate", method)
 mb.append(ms1)
 
 vbox = Gtk.VBox()

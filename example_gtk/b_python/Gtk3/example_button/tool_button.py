@@ -14,7 +14,9 @@ class window(Gtk.Window):
 				
 				# toolbutton
 				self.btn1 = Gtk.ToolButton(Gtk.STOCK_ADD)
+				self.btn1.set_label("add")
 				self.btn1.connect('clicked', self.click)
+
 				btn2 = Gtk.ToolButton(Gtk.STOCK_CLOSE)
 				btn4 = Gtk.ToolButton(Gtk.STOCK_HOME)
 				btn5 = Gtk.ToolButton(Gtk.STOCK_FIND)
@@ -26,7 +28,7 @@ class window(Gtk.Window):
 				
 				# vbox
 				vbox = Gtk.VBox()
-				vbox.pack_start(self.btn1, False, False, 0)
+				vbox.pack_start(self.btn1, False, True, 0)
 				vbox.pack_start(btn2, False, False, 0)
 				vbox.pack_start(btn4, False, False, 0)
 				vbox.pack_start(btn5, False, False, 0)
